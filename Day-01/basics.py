@@ -61,3 +61,14 @@ print(age+"1") # it will print 211 because it is a string and python will concat
 
 
 
+#ARTHEMETIC OPERATORS
+a = 20 
+b = 6
+
+print(a+b) #addition
+print(a-b) #subtraction
+print(a*b) #multiplication
+print(a/b) #division
+print(a//b) #floor division
+print(a%b) #modulus or remainder left over after division
+print(a**b) #exponentiation
