@@ -40,3 +40,24 @@ print("I am ",age," years old")
 print("My goal is to become an ", goal)
 
 
+#Checking the data type with type()
+
+name = "Ankit"
+age = 21
+height = 5.8
+is_student = True
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_student))
+
+#diffrence between age = 21 and age = "21"
+age = 21 # it is a integer and python can perform various calculations with it
+print(age+1) # it will print 22
+
+age = "21" # it is a string and python can not perform calculations with it
+print(age+"1") # it will print 211 because it is a string and python will concatenate the two strings because we are joining a string with another string "21" + "1" = "211"
+
+
+
