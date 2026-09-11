@@ -72,3 +72,33 @@ print(a/b) #division
 print(a//b) #floor division
 print(a%b) #modulus or remainder left over after division
 print(a**b) #exponentiation
+
+
+#One more important concept: Operator Precedence
+print((10 + 5) * 2) #here the addition will be done first because of the brackets and then multiplication will be done\
+print(10 + 5 * 2) # here multiplication will be done first and then addition will be done because of operator precedence
+print(20%6)
+
+#Comparision Operations 
+age = 21
+#CHECKING COMPARISION OPERATORS
+#1.Is age greater than 18?
+print(age>18) # it will print True because age is 21 which is greater than 18
+
+#2.Is age less than 18?
+print(age<18) # it will print False because age is 21 which is not less than 18
+
+#3.Is age equal to 21?
+print(age==21) # it will print True because age is 21 which is equal to 21
+
+#4.Is age not equal to 25?
+print(age!=25) # it will print True because age is 21 which is not equal to 25
+
+#5.Is age greater than or equal to 21?
+print(age>=21) # it will print True because age is 21 which is equal to 21
+
+#6.Is age less than or equal to 18?
+print(age<=18) # it will print False because age is 21 which is not less than or equal to 18
+
+
+
