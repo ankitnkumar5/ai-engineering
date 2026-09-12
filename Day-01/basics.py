@@ -150,3 +150,7 @@ print(is_logged_in and not is_admin) # it will print True because is_logged_in i
 
 
 
+#--------------------INPUT() FUNCTION---------------------
+#The input() function allows the user to take input from the user. The input() function takes input from the user and returns it as a string. The input() function can take an optional argument which is a string that will be displayed to the user as a prompt.
+name = input("Enter your name: ") # it will take input from the user and store it in the variable name
+age = input("Enter your age: ") # it will take input from the user and store it in the variable age 
