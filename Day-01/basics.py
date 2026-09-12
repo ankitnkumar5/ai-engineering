@@ -1,5 +1,5 @@
 
-#--------------------PRINT STATEMENTS--------------------
+#--------------------PRINT STATEMENTS---------------------
 print("Hello World")
 print("Hello Python")
 print("My Name is Ankit")
@@ -27,7 +27,7 @@ print("Language: Python")
 print("I am starting my 300-day journey today!")
 
 
-#--------------------VARIABLES--------------------
+#--------------------VARIABLES---------------------
 
 name = "Ankit"
 age = 21
@@ -42,7 +42,7 @@ print("I am ",age," years old")
 print("My goal is to become an ", goal)
 
 
-#Checking the data type with type()--------------------
+#Checking the data type with type()---------------------
 
 name = "Ankit"
 age = 21
@@ -63,7 +63,7 @@ print(age+"1") # it will print 211 because it is a string and python will concat
 
 
 
-#--------------------ARTHEMETIC OPERATORS-------------------------
+#--------------------ARTHEMETIC OPERATORS--------------------------
 a = 20 
 b = 6
 
@@ -76,12 +76,12 @@ print(a%b) #modulus or remainder left over after division
 print(a**b) #exponentiation
 
 
-#One more important concept: Operator Precedence-------------------------
+#One more important concept: Operator Precedence--------------------------
 print((10 + 5) * 2) #here the addition will be done first because of the brackets and then multiplication will be done\
 print(10 + 5 * 2) # here multiplication will be done first and then addition will be done because of operator precedence
 print(20%6)
 
-#----------------Comparision Operations----------------------- 
+#----------------Comparision Operations------------------------
 age = 21
 #CHECKING COMPARISION OPERATORS
 #1.Is age greater than 18?
@@ -103,7 +103,7 @@ print(age>=21) # it will print True because age is 21 which is equal to 21
 print(age<=18) # it will print False because age is 21 which is not less than or equal to 18
 
 
-#-------------LOGICAL OPERATORS-----------
+#-------------LOGICAL OPERATORS---------------------------------------------
 
 #-- AND operator(BOTH conditions must be True)
 age = 20
@@ -147,3 +147,6 @@ is_logged_in = True
 is_admin = False
 
 print(is_logged_in and not is_admin) # it will print True because is_logged_in is True and not is_admin is True because is_admin is False and not operator will reverse it to True
+
+
+
