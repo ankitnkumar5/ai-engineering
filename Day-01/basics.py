@@ -152,5 +152,42 @@ print(is_logged_in and not is_admin) # it will print True because is_logged_in i
 
 #--------------------INPUT() FUNCTION---------------------
 #The input() function allows the user to take input from the user. The input() function takes input from the user and returns it as a string. The input() function can take an optional argument which is a string that will be displayed to the user as a prompt.
-name = input("Enter your name: ") # it will take input from the user and store it in the variable name
-age = input("Enter your age: ") # it will take input from the user and store it in the variable age 
+
+#name = input("Enter your name : ") # it will take input from the user and store it in the variable name
+#print("Hello:", name)
+
+#Q1)
+#name = input("Enter your name : ")
+#age = input("Enter your age : ")
+#goal = input("Enter your goal : ")
+
+#print("My name is ", name)
+#print("My age is", age)
+#print("My goal is to become an " , goal)
+
+#print(type(age)) # it will print <class 'str'> because the input function takes input as a string and when we take input from the user it will be stored as a string in the variable age
+
+#a= input("Enter a number : ")
+#b = input("Enter another number : ")
+#print(a+b) # it will print  10 20 because the input function takes input as a string  and when we add two strings it will print 1020 
+
+#--TO fix this we can convert the input to integer using int() function
+#a= int(input("Enter a number : "))
+#b = int(input("Enter another number : "))
+#print(a+b) # it will print 30 because we have converted the input to integer using int() function and now we can perform calculations with it
+
+#Q2) Question on the int(input()) function
+#a=int(input("Enter first number :"))
+#b=int(input("Enter second number :"))
+#print("Addition:",a+b)
+#print("subtraction:",a-b)
+#print("Multiplication:", a*b)
+#print("Division:",a/b)
+#print("Floor Division:", a//b)
+
+#Now converting the input to float using float() function
+#height = float(input("Enter your height :"))
+#print("My height is ", height) 
+#print(type(height)) # it will print <class 'float'> because we have converted the input to float using float() function and now we can perform calculations with it
+
+
