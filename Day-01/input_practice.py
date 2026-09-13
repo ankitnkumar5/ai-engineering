@@ -53,3 +53,5 @@
 #total = product_price * product_quantity
 #print("Total bill:",total)
 
+
+#Formatted Output Using f-Strings-------------------------------------------------------------------topic to be coverd tmmr
