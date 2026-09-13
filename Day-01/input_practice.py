@@ -1,4 +1,4 @@
-#------Question 1: Personal Information-------------
+#------Question 1: Personal Information------------
 #Write a program that asks for:
 #Name
 #Age
@@ -8,7 +8,7 @@
 #I am 21 years old
 #I live in Faridabad
 
-#--------------ANSWER:---------
+#------------ANSWER:-------
 #name = input("Enter your name: ")
 #age = input("Enter your Age:")
 #city = input("Enter your City:")
@@ -16,7 +16,7 @@
 #print("I am",age,"years old")
 #print("I live in",city)
 
-#--------------Question 2: Add Two Numbers-------------
+#--------------Question 2: Add Two Numbers-----------
 #--Ask the user for two numbers and print:Addition: 30
 
 #----------Answer:---------
