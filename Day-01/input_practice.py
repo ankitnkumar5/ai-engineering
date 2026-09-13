@@ -12,7 +12,7 @@
 #name = input("Enter your name: ")
 #age = input("Enter your Age:")
 #city = input("Enter your City:")
-#print("My namr is"),name
+#print("My name is"),name
 #print("I am",age,"years old")
 #print("I live in",city)
 
@@ -32,3 +32,24 @@
 #Length = float(input("Enter length of rectangle:"))
 #Breadth = float(input("Enter breadth of rectangle:"))
 #print("Area of rectangle is:",Length*Breadth)
+
+
+#----------------Question 4: Age After 5 Years--------------------
+#--Ask the user for their current age. Calculate:future_age = current_age + 5
+
+#----------Answer:---------
+#current_age = int(input("Enter your current age:"))
+#future_age = current_age + 5
+#print("Your age after 5 years will be:",future_age)
+
+#--------------Question 5: Simple Shopping Bill---------------------
+#--Ask the user for:Product name.Product price.Quantity
+#alculate:total = price × quantity
+
+#-------------Answer:---------
+#product_name=input("Enter product name:")
+#product_price = float(input("Enter product price:"))
+#product_quantity = int(input("Enter product quantity:"))
+#total = product_price * product_quantity
+#print("Total bill:",total)
+
